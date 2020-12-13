@@ -1,5 +1,5 @@
 ---
-title: Huber Loss & F.smooth_l1_loss()
+title: Huber Loss & F.smooth-l1-loss()
 author: Bekay
 date: 2020-12-09 20:25:00 +0800
 categories: [Optimization, Loss Function]
