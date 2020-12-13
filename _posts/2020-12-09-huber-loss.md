@@ -20,11 +20,11 @@ image: /assets/img/post/201209-1.png
 
 **L1 Loss**는 아래와 같이 정의된다.
 
-$Loss(y,f(x))=\sum_{i=1}^N |y_{i}-f(x_{i})|$ 
+$$ Loss(y,f(x))=\sum_{i=1}^N |y_{i}-f(x_{i})| $$ 
 
 **L2 Loss**는 아래와 같이 정의된다.
 
-$Loss(y,f(x))=\sum_{i=1}^N (y_{i}-f(x_{i}))^2$ 
+$$ Loss(y,f(x))=\sum_{i=1}^N (y_{i}-f(x_{i}))^2 $$ 
 
 두 방법 모두 장단점을 가지고있다. 
 
@@ -43,7 +43,7 @@ Huber Loss는 L1과 L2의 장점을 취하면서 단점을 보완하기 위해�
 
 **Huber Loss**의 정의는 아래와 같다.
 
-$Loss_{\delta}(y,f(x))=\begin{cases}{1\over2}((y_{i}-f(x_{i}))^2 & for \left\vert y_{i}-f(x_{i}) \right\vert \le \delta,  \\ \delta\left\vert y_{i}-f(x_{i}) \right\vert - {1\over2}\delta^2 & otherwise.\end{cases}$
+$$ Loss_{\delta}(y,f(x))=\begin{cases}{1\over2}((y_{i}-f(x_{i}))^2 & for \left\vert y_{i}-f(x_{i}) \right\vert \le \delta,  \\ \delta\left\vert y_{i}-f(x_{i}) \right\vert - {1\over2}\delta^2 & otherwise.\end{cases} $$
 
 
 아래의 그림은 $\delta$ 를 1로 설정하였을 때의 Huber Loss(초록)와 L2 Loss(파랑)의 Loss다.
