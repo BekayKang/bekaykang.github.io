@@ -46,7 +46,7 @@ Huber Loss는 L1과 L2의 장점을 취하면서 단점을 보완하기 위해�
 $$ Loss_{\delta}(y,f(x))=\begin{cases}{1\over2}((y_{i}-f(x_{i}))^2 & for \left\vert y_{i}-f(x_{i}) \right\vert \le \delta,  \\ \delta\left\vert y_{i}-f(x_{i}) \right\vert - {1\over2}\delta^2 & otherwise.\end{cases} $$
 
 
-아래의 그림은 $\delta$ 를 1로 설정하였을 때의 Huber Loss(초록)와 L2 Loss(파랑)의 Loss다.
+아래의 그림은 $ \delta $ 를 1로 설정하였을 때의 Huber Loss(초록)와 L2 Loss(파랑)의 Loss다.
 
 그림에서 확인할 수 있는 것처럼 -1과 1사이에서는 L2 Loss와 유사하며, 그 외의 영역에서는 L1 Loss와 유사한 형태를 보인다.
 
@@ -68,7 +68,7 @@ $$ Loss_{\delta}(y,f(x))=\begin{cases}{1\over2}((y_{i}-f(x_{i}))^2 & for \left\v
 **Pytorch에서 Model Optimization할 때 사용하는 F.smooth_l1_loss()가 Huber Loss를 이용하여 Loss를 계산한다.**
 아래 그림은 Pytorch의 F.smooth_l1_loss의 description이다.
 
-F.smooth_l1_loss에서는 $\delta$를 1로 사용하는 것을 확인할 수 있다.
+F.smooth_l1_loss에서는 $ \delta $를 1로 사용하는 것을 확인할 수 있다.
 ![Desktop View](/assets/img/post/201209-3.png)
 
 
