@@ -1,7 +1,7 @@
 ---
 title: Huber Loss & F.smooth-l1-loss()
 author: Bekay
-date: 2020-12-09 20:25:00 +0800
+date: 2020-12-09 08:25:00 +0800
 categories: [Optimization, Loss Function]
 tags: [Optimization, Huber Loss, F.smooth-l1-loss]
 math: true
