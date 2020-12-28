@@ -3,7 +3,7 @@ title: Breath First Algorithm
 author: Bekay
 date: 2020-11-29 11:30:00 +0800
 categories: [Graph Search Algorithm]
-tags: [Path Finding,Breath-First-Algorithm, A* algirhtm]
+tags: [Path Finding,Breath First Algorithm, A* Algorithm]
 math: true
 image: /assets/img/post/2020-11-29-breath-first-algorithm.gif
 ---
