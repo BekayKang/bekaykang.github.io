@@ -1,7 +1,7 @@
 ---
 title: Dijkstra's Algorithm
 author: Bekay
-date: 2020-12-28 22:25:00 +0800
+date: 2020-12-28 10:25:00 +0800
 categories: [Graph Search Algorithm]
 tags: [Path Finding,Dijkstra's Algorithm,Breath-First-Algorithm, A* algirhtm]
 math: true
