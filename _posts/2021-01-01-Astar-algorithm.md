@@ -41,11 +41,13 @@ Path Finding을 위한 Graph Search Algorithm 중에서 [**Breath First Algorith
 ![Desktop View](/assets/img/post/210101-4.png)
 
 **A\* Algorithm**과 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)에서 Path Finding에 소요되는 시간이 어떤지 비교 실험을 하였다.
+
 ![Desktop View](/assets/img/post/210101-5.png)
 
 그 결과, **A\* Algorithm**은 약 0.1s 소요 되었고 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)은 약 36s 소요 되었다. 무려 360배 정도의 소모 시간의 차이를 보였다. 물론 풀어야하는 문제의 복잡도에 따라서 이는 매우 달라진다. 하지만 이 결과만으로도 **A\* Algorithm**의 효율성은 입증된 것 같다.
 
 **A\* Algorithm**을 통해 실제 Path Finding한 결과
+
 ![Desktop View](/assets/img/post/210101-6.png)
 
 ---
