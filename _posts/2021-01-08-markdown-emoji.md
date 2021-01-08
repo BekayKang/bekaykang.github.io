@@ -9,7 +9,6 @@ image: /assets/img/post/210108-1.png
 ---
 Markdown 작성할 때 다양한 Emoji Markup이 잘 정리되어 있어서 Markdown 작성시 참고하면 좋을 것 같다.
 
-
 출처: https://gist.github.com/rxaviers/7360908
 
 ---

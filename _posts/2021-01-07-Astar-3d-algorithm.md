@@ -27,9 +27,13 @@ image: /assets/img/post/210107-4.gif
 - 장애물은 전체 크기의 70% (=30x30x30x0.7)
 
 Cubic Grid와 시작/도착점 확인
+
+
 ![Desktop View](/assets/img/post/210107-1.png)
 
 장애물 환경을 포함한 실제 문제 상황
+
+
 ![Desktop View](/assets/img/post/210107-2.png)
 
 ---
