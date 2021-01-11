@@ -38,6 +38,8 @@ Path Finding을 위한 Graph Search Algorithm 중에서 [**Breath First Algorith
 ## Comparison Result of Time-Consuming
 ---
 1000x1000의 가상의 맵에서 출발지는 (0,0), 도착지는 (999,999)인 Path Finding 문제를 해결해야 된다. 붉은 점들은 지나가기 힘든 장애물들이다.
+
+
 ![Desktop View](/assets/img/post/210101-4.png)
 
 **A\* Algorithm**과 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)에서 Path Finding에 소요되는 시간이 어떤지 비교 실험을 하였다.

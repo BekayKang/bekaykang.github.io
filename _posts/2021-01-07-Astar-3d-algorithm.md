@@ -42,9 +42,13 @@ Cubic Grid와 시작/도착점 확인
 당연하게도? **A\* Algorithm**을 이용하여 3D Path Finding 문제를 해결하였다.
 
 3D Path Finding 결과
+
+
 ![Desktop View](/assets/img/post/210107-4.gif)
 
 실제 Path Finidng 경로 결과
+
+
 ![Desktop View](/assets/img/post/210107-3.gif)
 
 위와 같은 재밌고 다양한 문제에 **Graph Search Algorithm**을 적용할 수 있을 것 같다.
