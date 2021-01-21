@@ -19,4 +19,5 @@ Breath First Algorithm을 이용한 Path Finding 문제를 해결해보자.
 ---
 ## Code
 ---
+[![Github](/assets/img/post/GitHub-logo.png){: width="70"}](https://github.com/BekayKang/pathfinding_algorithms_bekay)
 <script src="https://gist.github.com/BekayKang/8dc6a58968715211b55eaedfc2ea0bfb.js"></script>

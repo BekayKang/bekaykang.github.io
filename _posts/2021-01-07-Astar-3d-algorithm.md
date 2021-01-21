@@ -29,12 +29,12 @@ image: /assets/img/post/210107-4.gif
 Cubic Grid와 시작/도착점 확인
 
 
-![Desktop View](/assets/img/post/210107-1.png)
+![Desktop View](/assets/img/post/210107-1.png){: width="450"}
 
 장애물 환경을 포함한 실제 문제 상황
 
 
-![Desktop View](/assets/img/post/210107-2.png)
+![Desktop View](/assets/img/post/210107-2.png){: width="450"}
 
 ---
 ## Result
@@ -56,4 +56,6 @@ Cubic Grid와 시작/도착점 확인
 ---
 ## Code
 ---
+[![Github](/assets/img/post/GitHub-logo.png){: width="70"}](https://github.com/BekayKang/pathfinding_algorithms_bekay)
+
 <script src="https://gist.github.com/BekayKang/6b68db39eca39b81fbcf9b1c43567b98.js"></script>

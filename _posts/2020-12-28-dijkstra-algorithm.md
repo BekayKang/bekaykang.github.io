@@ -31,4 +31,5 @@ Cost라는 것은 아래 그림과 같이 에베레스트산과 같은 극한 �
 ## Code
 ---
 **Dijkstra's Algorithm**의 Code는 대부분 [**Breath First Algorithm**](https://bekaykang.github.io/posts/Breath-First-Algorithm/)과 유사하며 **Cost** 부분만 추가했다.
+[![Github](/assets/img/post/GitHub-logo.png){: width="70"}](https://github.com/BekayKang/pathfinding_algorithms_bekay)
 <script src="https://gist.github.com/BekayKang/e04aec25fcb5a7288c312a62b4c55129.js"></script>
