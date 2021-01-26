@@ -30,7 +30,7 @@ Path Finding을 위한 Graph Search Algorithm 중에서 [**Breath First Algorith
 ![Desktop View](/assets/img/post/210101-2.png)
 
 탐색의 효율성을 높이기 위해 **A\* Algorithm**은 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)의 Cost Term에 추가적으로 목표 지점까지의 거리를 추가로 사용한다.
-![Desktop View](/assets/img/post/210101-3.png)
+![Desktop View](/assets/img/post/210101-3.PNG)
 
 따라서 효율적인 경로 탐색과 확장을 통해 **빠르게** Path를 찾는 결과를 보여준다.
 
