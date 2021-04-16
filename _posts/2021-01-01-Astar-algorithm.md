@@ -55,8 +55,8 @@ Path Finding을 위한 Graph Search Algorithm 중에서 [**Breath First Algorith
 ---
 ## Code
 ---
-**A\* Algorithm**의 Code는 대부분 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)과 유사하며 **Distance Term** 부분만 추가했다.
-
 [![Github](/assets/img/post/GitHub-logo.png){: width="70"}](https://github.com/BekayKang/pathfinding_algorithms_bekay)
+
+**A\* Algorithm**의 Code는 대부분 [**Dijkstra's Algorithm**](https://bekaykang.github.io/posts/dijkstra-algorithm/)과 유사하며 **Distance Term** 부분만 추가했다.
 
 <script src="https://gist.github.com/BekayKang/fd4418716f35dfdcff3ef3cfaf237c43.js"></script>
