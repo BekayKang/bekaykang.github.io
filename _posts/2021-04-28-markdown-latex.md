@@ -15,11 +15,11 @@ image: /assets/img/post/210428-1.png
 
 |***Symbol***|***Expression***|***Symbol***|***Expression***|
 |---|---|---|---|
-|$$`\sum_{t=1}^{T}`$$|`$$\sum_{t=1}^{T}$$`|$$\int_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|
+|$$\sum_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|$$\int_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|
 |$$\overset{T}{\underset{t=0}{\prod}}$$|`$$\sum_{t=1}^{T}$$`|$$\frac{A}{B}$$|`$$\sum_{t=1}^{T}$$`|
 |$$\nabla_{\theta}$$|`$$\nabla_{\theta}$$`|$$\tau \sim \pi_{\theta}$$|`$$\tau \sim \pi_{\theta}$$`|
 |$$s \in S$$|`$$s \in S$$`|$$\bigg( \big( () \big) \bigg)$$|`$$\bigg( \big( () \big) \bigg)$$`|
-|$$\mathop\mathbb{E}$$|`$$\mathop\mathbb{E}$$`|$$\hat{R}$$|`$$\hat{R}$$`|
+|$$\mathop\mathbbE$$|`$$\mathop\mathbb{E}$$`|$$\hat{R}$$|`$$\hat{R}$$`|
 |$$\therefore$$|`$$\therefore$$`|$$\because$$|`$$\because$$`|
 |$$\leqq \   \geqq$$|`$$\leqq \   \geqq$$`|$$\sim$$|`$$\sim$$`|
 |$$\simeq$$|`$$\simeq$$`|$$\infty$$|`$$\infty$$`|
