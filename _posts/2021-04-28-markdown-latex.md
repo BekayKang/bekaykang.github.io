@@ -11,7 +11,7 @@ image: /assets/img/post/210428-1.png
 ## Markdown LaTex Symbols
 
 논문에서 나오는 수식들을 정리할때 자주 등장하는 symbols 위주로 정리!
-(내가 볼려고 하는 정리...ㅋㅋ)
+(내가 볼려고 하는 정리...ㅋㅋㅋ)
 
 |***Symbol***|***Expression***|***Symbol***|***Expression***|
 |---|---|---|---|
