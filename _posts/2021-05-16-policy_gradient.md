@@ -74,7 +74,7 @@ $$
 $$
    
 
-현재 policy인 $\pi_\theta$를 이용하여 $log \pi \theta(a_t \mid s_t)$를 계산할 수 있으므로, policy gradient도 sample based로 계산할 수 있다. 추정된 gradient를 기반으로 현재 policy를 **gradient ascent방향**으로(expected return을 maximization하는 방향) 업데이트하면 된다.   
+현재 policy인 $\pi_\theta$를 이용하여 $log \pi \theta(a_t \mid s_t)$를 계산할 수 있으므로, policy gradient도 sample based로 계산할 수 있다. 추정된 gradient를 기반으로 현재 policy를 **gradient ascent방향**으로(expected return을 maximization하는 방향) 업데이트하면 된다.
 
 
 
