@@ -5,9 +5,8 @@ date: 2021-08-12 20:25:00 +0800
 categories: [Issue Fix]
 tags: [Pytorch, GPU, Out of Memory]
 math: true
-image: /assets/img/post/2021-08-12-1.PNG
+image: /assets/img/post/2021-08-12-1.png
 ---
-``
 
 ---
 ## GPU Out of Memory Issue
