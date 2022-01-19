@@ -11,7 +11,8 @@ use_math: true
 
 
 ## Objective Function
-Policy gradient의 objective는 결국 exptected return의 maximization!   
+
+Policy gradient의 objective는 결국 exptected return의 maximization!
 
 $$
 \begin{equation}
@@ -19,7 +20,7 @@ J(\theta_\pi) = \underset{\tau \sim \pi_\theta}{\mathbb{E}} [R(\tau)] \tag{1} \\
 \end{equation}
 $$
 
-만약 objective function $J(\pi_\theta)$의 derivation을 구할 수 잇다면 policy를 gradient ascent 방향으로 업데이트하면 expected return을 maximization하는 poicy로 업데이트할 수 있다.   
+만약 objective function $J(\pi_\theta)$의 derivation을 구할 수 잇다면 policy를 gradient ascent 방향으로 업데이트하면 expected return을 maximization하는 poicy로 업데이트할 수 있다.
 
 $$
 \begin{equation}
@@ -27,10 +28,11 @@ $$
 \end{equation}
 $$
 
-$\nabla_\theta J(\pi_\theta)$가 바로 policy graident이고, poicy gradient를 이용하여 optimal policy를 찾는 알고리즘을 **Policy Gradient Algorithm 혹은 Policy-based Method**라고 한다. 그 대표적인 알고리즘은 PPO, DDPG 등이 있다.   
+$\nabla_\theta J(\pi_\theta)$가 바로 policy graident이고, poicy gradient를 이용하여 optimal policy를 찾는 알고리즘을 **Policy Gradient Algorithm 혹은 Policy-based Method**라고 한다. 그 대표적인 알고리즘은 PPO, DDPG 등이 있다.
 
 ## Policy Gradient인 $\nabla_{\theta}J(\pi_\theta)$를 어떻게 구할 것 인가?
-Policy gradient의 계산을 위해서는 식의 변형이 필요하다. 우선 expected return인 $\underset{\tau \sim \pi_\theta}{\mathbb{E}} [R(\tau)]$를 계산 가능한 형태로 변환하고, 강화학습을 진행하면서 얻는 sample based로 추정이 가능하게 해보자.   
+
+Policy gradient의 계산을 위해서는 식의 변형이 필요하다. 우선 expected return인 $\underset{\tau \sim \pi_\theta}{\mathbb{E}} [R(\tau)]$를 계산 가능한 형태로 변환하고, 강화학습을 진행하면서 얻는 sample based로 추정이 가능하게 해보자.
 
 $$
 \begin{align}
@@ -74,7 +76,7 @@ $$
 $$
    
 
-현재 policy인 $\pi_\theta$를 이용하여 $log \pi \theta(a_t \mid s_t)$를 계산할 수 있으므로, policy gradient도 sample based로 계산할 수 있다. 추정된 gradient를 기반으로 현재 policy를 **gradient ascent방향**으로(expected return을 maximization하는 방향) 업데이트하면 된다. 
+현재 policy인 $\pi_\theta$를 이용하여 $log \pi_{\theta}(a_t \mid s_t)$를 계산할 수 있으므로, policy gradient도 sample based로 계산할 수 있다. 추정된 gradient를 기반으로 현재 policy를 **gradient ascent방향**으로(expected return을 maximization하는 방향) 업데이트하면 된다. 
 
 <!-- ## Policy Gradient의 High-Variance 문제를 해결할 수 있을까?
 
