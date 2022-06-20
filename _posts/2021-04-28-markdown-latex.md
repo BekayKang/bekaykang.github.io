@@ -15,8 +15,8 @@ image: /assets/img/post/210428-1.png
 
 |***Symbol***|***Expression***|***Symbol***|***Expression***|
 |---|---|---|---|
-|$$\sum_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|$$\int_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|
-|$$\overset{T}{\underset{t=0}{\prod}}$$|`$$\sum_{t=1}^{T}$$`|$$\frac{A}{B}$$|`$$\sum_{t=1}^{T}$$`|
+|$$\sum_{t=1}^{T}$$|`$$\sum_{t=1}^{T}$$`|$$\int_{t=1}^{T}$$|`$$\int_{t=1}^{T}$$`|
+|$$\overset{T}{\underset{t=0}{\prod}}$$|`$$\overset{T}{\underset{t=0}{\prod}}$$`|$$\frac{A}{B}$$|`$$\frac{A}{B}$$`|
 |$$\nabla_{\theta}$$|`$$\nabla_{\theta}$$`|$$\tau \sim \pi_{\theta}$$|`$$\tau \sim \pi_{\theta}$$`|
 |$$s \in S$$|`$$s \in S$$`|$$\bigg( \big( () \big) \bigg)$$|`$$\bigg( \big( () \big) \bigg)$$`|
 |$$\begin{align*} a &= b \\b &= c+2 \end{align*}$$|`$$\begin{align*} a &= b \\b &= c+2 \end{align*}$$`|$$\hat{R}$$|`$$\hat{R}$$`|
