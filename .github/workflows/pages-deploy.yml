@@ -22,10 +22,14 @@ jobs:
         with:
           fetch-depth: 0  # for posts's lastmod
 
-      - name: Setup Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.7
+      # - name: Setup Ruby
+      #   uses: actions/setup-ruby@v1
+      #   with:
+      #     ruby-version: 2.7
+
+      - name: Setup Ruby, JRuby and TruffleRuby
+        uses: ruby/setup-ruby@v1.127.0
+
 
       - name: Bundle Caching
         uses: actions/cache@v2

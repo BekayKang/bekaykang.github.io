@@ -206,6 +206,3 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-- name: Setup Ruby, JRuby and TruffleRuby
-  uses: ruby/setup-ruby@v1.127.0
